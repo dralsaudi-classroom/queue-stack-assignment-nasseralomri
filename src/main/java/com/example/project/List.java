@@ -1,13 +1,13 @@
 package com.example.project;
 
 public interface List<T> {
-    public void findFirst( );
-    public void findNext( );
-    public T retrieve( );
-    public void update(T e);
-    public void insert(T e);
-    public void remove( );
-    public boolean full( );
-    public boolean empty( );
-    public boolean last( );
+    void findFirst();
+    void findNext();
+    T retrieve();
+    void update(T e);
+    void insert(T e);
+    void remove();
+    boolean full();
+    boolean empty();
+    boolean last();
 }
